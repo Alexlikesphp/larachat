@@ -12,9 +12,7 @@ class Message extends Model
     use HasFactory;
 
     protected $fillable = [
-        'chat_id',
-        'type',
-        'content',
+        
     ];
 
     protected $casts = [
